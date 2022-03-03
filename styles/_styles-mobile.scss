@@ -1,0 +1,26 @@
+@media screen and (max-width: 321px) {
+    .main {
+        margin-top: 0px;
+    }
+    li {
+        display: none;
+    }
+    nav::after {
+        content: "...";
+        font-size: 40px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .main__text {
+        width: 80%;
+    }
+    .main__heading {
+        font-size: 36px;
+        line-height: 39.6px;
+        letter-spacing: -0.8px;
+    }
+    .main__content {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

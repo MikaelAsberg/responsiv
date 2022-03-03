@@ -17,17 +17,32 @@
 </head>
 
 <body>
-    <header class="header">
-        <h2 class="header__head">Head.</h2>
-        <ul>
-            <li class="header__works">Works</li>
-            <li class="header__services">Services</li>
-            <li class="header__contacts">Contacts</li>
-        </ul>
-
-
-
+    <header>
+        <div>
+            <nav>
+                <h1 class="head">Head.</h1>
+                <ul>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    <main class="main">
+        <div class="main__text">
+            <h1 class="main__heading">Patagonia</h1>
+            <p class="main__content">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
+        </div>
+        <div class="images-wrapper">
+            <picture>
+                <source media="(min-width: 769px)" srcset="/images/image-l.jpg">
+                <source media="(min-width: 322px)" srcset="/images/image-m.jpg">
+                <source media="(max-width: 321px)" srcset="/images/image-s.jpg">
+                <img class="img" src="/images/image-l.jpg" alt="horses">
+            </picture>
+        </div>
+    </main>
 </body>
 
 </html>

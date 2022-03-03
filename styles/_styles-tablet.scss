@@ -1,0 +1,31 @@
+// och (max-width:321px) i "style-mobile" istället för min-width här // 
+@media screen and (max-width: 768px) {
+    .head {
+        @font-face {
+            font-family: 'Baloo';
+            src: url('/fonts/Baloo-Regular.woff2') format('woff2'), url('/fonts/Baloo-Regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+            line-height: 36px;
+            font-size: 24px;
+            letter-spacing: -0.25px;
+        }
+    }
+    .main {
+        margin-top: 50px;
+    }
+    .main__text {
+        width: 80%;
+    }
+    .main__heading {
+        font-size: 72px;
+        line-height: 82.8px;
+        letter-spacing: -1.6px;
+    }
+    @media screen and (max-width: 400px) and (min-width:322px) {
+        .main__heading {
+            font-size: 60px;
+        }
+    }
+}
